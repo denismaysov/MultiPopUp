@@ -161,10 +161,7 @@ li{
 }
 
 .popup{
-    transition: opacity .3s ease-out;
-    opacity: 0;
-    height: 0;
-    overflow: hidden;
+    display: none;
     &__container{
         position: absolute;
         background-color: #000;
@@ -233,8 +230,7 @@ li{
     background-color: #f3dced;
 }
 .option__checkbox:checked~.popup{
-    opacity: 1;
-    height: auto;
+    display: block;
 }
 
 
